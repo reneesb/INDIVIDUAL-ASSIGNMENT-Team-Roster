@@ -13,8 +13,8 @@ function TeamCard({ teamObj, onUpdate }) {
   };
 
   return (
-    <Card style={{ width: '18rem', margin: '10px' }}>
-      <Card.Img variant="top" src={teamObj.image} alt={teamObj.image} style={{ height: '400px' }} />
+    <Card style={{ width: '20rem', margin: '10px' }}>
+      <Card.Img variant="top" src={teamObj.image} alt={teamObj.image} style={{ height: '300px' }} />
       <Card.Body>
         <Card.Title>{teamObj.teamName}</Card.Title>
         <Link href="/members" passHref>

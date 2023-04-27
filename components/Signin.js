@@ -13,8 +13,7 @@ function Signin() {
         margin: '0 auto',
       }}
     >
-      <h1>Hi there!</h1>
-      <p>Click the button below to login!</p>
+      <h1 style={{ color: 'white', fontFamily: 'Bodoni 72 Oldstyle' }}>Ready to Forge an Empire!</h1>
       <Button type="button" size="lg" className="copy-btn" onClick={signIn}>
         Sign In
       </Button>
