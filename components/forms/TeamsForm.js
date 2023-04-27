@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useRouter } from 'next/router';
 import PropTypes from 'prop-types';
-import { FloatingLabel } from 'react-bootstrap/FloatingLabel';
+import FloatingLabel from 'react-bootstrap/FloatingLabel';
 import { Button } from 'react-bootstrap';
 import Form from 'react-bootstrap/Form';
 import { useAuth } from '../../utils/context/authContext';
@@ -55,8 +55,8 @@ function TeamForm({ obj }) {
           <Form.Control
             type="text"
             placeholder="Enter Team Name"
-            name="team"
-            value={formInput.team}
+            name="teamName"
+            value={formInput.teamName}
             onChange={handleChange}
             required
           />
@@ -99,10 +99,9 @@ function TeamForm({ obj }) {
           />
 
         </FloatingLabel>
+        <Button type="submit">{obj.firebaseKey ? 'Update' : 'Create'} </Button>
       </Form>
 
-      {/* SUBMIT BUTTON */}
-      <Button type="submit">{obj.firebaseKey ? 'Update' : 'Create'} Submit</Button>
     </>
   );
 }
@@ -110,7 +109,7 @@ function TeamForm({ obj }) {
 // eslint-disable-next-line react/no-typos
 TeamForm.propTypes = {
   obj: PropTypes.shape({
-    team: PropTypes.string,
+    teamName: PropTypes.string,
     image: PropTypes.string,
     group: PropTypes.string,
     description: PropTypes.string,
