@@ -1,0 +1,38 @@
+#  Team Roster Individual Assessment Destiny Is All!
+
+## Installation
+
+Clone repo into your development environment (ex. Visual Studio Code)
+Use the following commands:
+- npm install
+- npm run prepare
+- npm run dev
+- Open local development server
+
+# Project Overview
+
+The purpose of the project is to create a CRUD application using React.js. The theme of the application is based on the Netflix series, The Last Kingdom. A team is created
+ and members are added to the team. The authenticated user is able to log in and view their team and the members of that team. The user can edit the members or delete the
+ members.
+ 
+ # Link to Wireframe
+ https://www.figma.com/file/xkWbbb8o2asPQS4B9zA2vP/Destiny-Is-All?node-id=0%3A1&t=lzBWfpguzqekRgTZ-1
+ 
+ # Link to deployed project
+ https://destiny-is-all.netlify.app/
+ 
+ # Screenshots
+ 
+ <picture>
+ <source media="(prefers-color-scheme: dark)" srcset="https://destiny-is-all.netlify.app/">
+ <source media="(prefers-color-scheme: light)" srcset="https://destiny-is-all.netlify.app/">
+ <img alt="YOUR-ALT-TEXT" src="YOUR-DEFAULT-IMAGE">
+</picture>
+
+<picture>
+ <source media="(prefers-color-scheme: dark)" srcset="https://destiny-is-all.netlify.app/members">
+ <source media="(prefers-color-scheme: light)" srcset="https://destiny-is-all.netlify.app/members">
+ <img alt="YOUR-ALT-TEXT" src="YOUR-DEFAULT-IMAGE">
+</picture>
+ 
+ 
