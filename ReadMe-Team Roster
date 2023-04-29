@@ -15,6 +15,12 @@ The purpose of the project is to create a CRUD application using React.js. The t
  and members are added to the team. The authenticated user is able to log in and view their team and the members of that team. The user can edit the members or delete the
  members.
  
+## Tech Stack
+- React and Next.js
+- Bootstrap for React
+- Firebase for persistent data storage
+- Postman
+ 
  # Link to Wireframe
  <https://www.figma.com/file/xkWbbb8o2asPQS4B9zA2vP/Destiny-Is-All?node-id=0%3A1&t=lzBWfpguzqekRgTZ-1>
  
